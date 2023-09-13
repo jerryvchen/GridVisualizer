@@ -14,8 +14,8 @@ def main() -> None:
     app = QApplication(sys.argv) 
 
     # change these maze parameters to whatever you want
-    rows: int = 200
-    cols: int = 200
+    rows: int = 100
+    cols: int = 100
     obstacle_density: float = 0.3
 
     # creates the grid visualizer
